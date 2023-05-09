@@ -1,0 +1,34 @@
+.bg-nav{
+    background-color: sienna;
+    height: 85px;
+}
+
+.search{
+    position: relative;
+}
+
+.search button{
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.custom-search{
+    border-radius: 50px !important;
+    padding-right: 29px !important;
+}
+
+@media (max-width:576px) {
+    .bg-nav{
+        height: fit-content;
+    }
+    .logoo{
+        width: 60px;
+        text-align: center;
+    }
+    .search{
+        margin-bottom: 9px;
+    }
+}

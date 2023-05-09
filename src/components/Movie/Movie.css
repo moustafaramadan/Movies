@@ -1,0 +1,34 @@
+.mDetails{
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.border-story{
+    border-bottom: 3px solid #fff;
+    width: fit-content !important;
+    height: 44px;
+}
+
+.custom-story{
+    padding: 15px;
+}
+.botons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.botons Button{
+    margin-right: 10px;
+    background-color: orangered;
+    border: none;
+}
+
+.botons Button:hover{
+    background-color: rgb(172, 50, 5);
+}
+
+.custom-poster{
+    border-radius: 20px;
+    width: 300px;
+}
